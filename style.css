@@ -1,0 +1,100 @@
+
+body {
+		background-image: url('5.gif');
+		background-size: cover;
+		background-color: #214e96;
+	font-family: 'Roboto', sans-serif;
+
+	}
+
+h1 {
+	color: white;
+	font-size: 50px;
+	font-weight: normal;
+	margin-bottom: 0px;
+	margin-top: 325px;
+	/*
+	text-align: center;
+	*/
+}
+h2 {
+	color: white;
+	font-size: 15px;
+	margin-top: 50px;
+	text-align: center;
+}
+
+.bio {
+	font-size: 16px;
+	color: white;
+	border: 1px solid navy;
+	padding: 15px;
+	text-align: center;
+}
+
+.me {
+	height: 150px;
+	border-radius: 50%;
+	border-style: solid;
+	border-color: white;
+	margin-top: 50px;
+}
+
+.about{
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.line{
+	height: 3px;
+	width: 50px;
+	background-color: white;
+	fill-opacity: 0.1;
+	stroke-opacity: 0.3;
+	
+}
+
+.img2 {
+	height: 150px;
+	width: 
+}
+.shape {
+	font-size: 20px;
+	color: white;
+}
+
+.rectangle {
+	margin-top: 200px;
+}
+/*div.part2 {
+	background-color: white;
+    color: black;
+    margin: 20px 0 20px 0;
+    padding: 20px;
+    text-align: center;
+}
+*/
+}
+
+/* SNOWFLAKE // UNIMPORTANT
+#snowflakeContainer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.snowflake {
+    padding-left: 15px;
+    font-family: Cambria, Georgia, serif;
+    font-size: 14px;
+    line-height: 24px;
+    position: fixed;
+    color: #FFFFFF;
+    user-select: none;
+    z-index: 1000;
+}
+.snowflake:hover {
+    cursor: default;
+}
+*/h

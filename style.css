@@ -53,3 +53,9 @@ h2 {
 	padding-left: 30px;
 	display: inline-block;
 }
+
+.medium {
+	border-radius: 50px;
+	padding-left: 25px;
+	display: inline-block;
+}

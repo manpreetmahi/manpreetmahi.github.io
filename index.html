@@ -1,48 +1,90 @@
+<!DOCTYPE HTML>
+
 <html>
 	<head>
-	<Style>
-	div.part2 {
-	background-color: #214e96;
-    color: black;
-    margin: 20px 0 20px 0;
-    padding: 20px;
-    text-align: center;
 
+		<title>Steven Zhang | Home</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+
+      <style>
+      /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
+      @import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100';
+html,
+p {
+  font-family: 'Roboto Mono', monospace;
 
 }
-</Style>
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
-	</head>
+.container {
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.text {
+  font-weight: 100;
+  font-size: 20px;
+  color: #000;
+}
+.dud {
+  color: #a5a5a5;
+}
 
-	<body>
+    </style>
 
-		<div id="particles-js"></div>
-		<script type="text/javascript" src="particles.js"></script>
-		<script type="text/javascript" src="app.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
 
-		<div class="about">
+</head>
 
-			<h1>Hi.</h1>
+	<body class="is-loading">
 
- <div id=MainLogos align="inline-block" class="MainLogos">
+			<div id="wrapper">
 
-            <div class="Logo animated slideInUp" class="logo"><a href="https://www.facebook.com/manpreetmahii" target="_blank"><img src="images/FbLogo.png" width="22" height="22" alt="Facebook" /></a>
-            </div>
-            <div class="Logo animated slideInUp" class="logo"><a href="https://www.linkedin.com/in/manpreet-mahi/" target="_blank"><img src="images/LinkedLogo.png" width="22" height="22" alt="LinkedIn" /></a>
-    		<div class="github" class="Logo animated slideInUp" class="logo" ><a href="https://github.com/manpreetmahi" target="_blank"><img src="images/GithubLogo.png" width="20" height="22" border-radius="50px" alt="Github" /></a>
-            </div>
-            <div class="medium" class="Logo animated slideInUp" class="logo" ><a href="https://medium.com/@manpreetmahi" target="_blank"><img src="images/MediumLogo.png" width="20" height="22" border-radius="50px" alt="Github" /></a>
-            </div>
-    		
-    
-           <!-- 
-           <li><a href="images/Manpreet Mahi Resume.pdf" target="_blank">RESUME</a></li>
-           -->
-        <br>
-        </ul> 
-    </div>
-			<h2 class="intro">I'm Manpreet Mahi, an aspiring full-stack web developer</h2>
+				<!-- Main -->
+					<section id="main">
+						<header>
+							<span class="avatar"><img src="images/me.jpg" alt="" /></span>
+							<h1>Manpreet Mahi</h1>
 
+							<p>  <div class="container">
+							  <div class="text"></div>
+							  </div>
+   							 <script src="js/index.js"> </script>
+							</p>
+
+						</header>
+
+						<footer>
+							<ul class="icons">
+                				<li><a href="mailto:manpreet.mahi04@gmail.com" class="icon fa-envelope-o"><span class="label">Facebook</span></a></li>
+								<li><a href="https://www.linkedin.com/in/manpreet-mahi/" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+								<li><a href="https://github.com/manpreetmahi" class="icon fa-github"><span class="label">Github</span></a></li>
+								<!--<li><a href="StevenZhangCV.pdf" class="icon fa-download"><span class="label">Email</span></a></li>
+								-->
+							</ul>
+						</footer>
+					</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="copyright">
+							<li>&copy; manpreet mahi</li>
+						</ul>
+					</footer>
+
+			<script>
+				if ('addEventListener' in window) {
+					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
+					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+				}
+
+			</script>
 	</body>
 </html>

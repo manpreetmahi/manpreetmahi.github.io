@@ -82,15 +82,13 @@ var TextScramble = function () {
 // ——————————————————————————————————————————————————
 
 var phrases = [
-  'TFSS Student',
-  'Artist',
-  'Pianist',
-  'Diligent',
-  'Leader',
-  'Nerd',
-  'Hacker',
-  'Hustler',
-  'Achiever'];
+  'TFSS SENIOR',
+  'SOFTWARE DEVELOPER',
+  'AVID HOT CHLO DRINKER',
+  'SELF-PROCLAIMED COMEDIAN',
+  'NERD',
+  'INNOVATOR',
+  'LEADER'];
 
 
 var el = document.querySelector('.text');

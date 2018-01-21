@@ -84,7 +84,7 @@ var TextScramble = function () {
 var phrases = [
   'TFSS SENIOR',
   'SOFTWARE DEVELOPER',
-  'AVID HOT CHLO DRINKER',
+  'AVID HOT CHOCOLATE DRINKER',
   'SELF-PROCLAIMED COMEDIAN',
   'NERD',
   'INNOVATOR',

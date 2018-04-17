@@ -119,7 +119,7 @@ a
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-o-background-size:cover;
-	background-size:fixed;
+	background-size:cover;
 }
 .masthead .intro-body
 {

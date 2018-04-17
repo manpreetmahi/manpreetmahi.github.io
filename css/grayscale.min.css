@@ -119,7 +119,7 @@ a
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-o-background-size:cover;
-	background-size:cover
+	background-size:fixed;
 }
 .masthead .intro-body
 {
@@ -284,7 +284,7 @@ img::-moz-selection{background:0 0}
 */
 
 #particles canvas{
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: 100%;
     z-index: -1;

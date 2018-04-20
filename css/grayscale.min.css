@@ -310,16 +310,6 @@ img::-moz-selection{background:0 0}
 video::-webkit-media-controls {
 	display: none !important;
 }
-.video-overlay{
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left:0;
-	right: 0;
-	background-color: rgba(255, 255, 255, 0.8);
-	opacity: 0;
-	transition: opacity 0.3s ease
-}
 .video-overlay:hover {
 	opacity: 1;
 }
@@ -330,6 +320,7 @@ video::-webkit-media-controls {
 	transform: translateX(-50%) translateY(-50%);
 	text-transform: uppercase;
 	font-size: 3em;
-	color: #000;
+	color: rgb(255,255,255);
 	text-align: center;
+	z-index: 1;
 }

@@ -339,3 +339,26 @@ video::-webkit-media-controls {
 	max-width: 100%
 	height: auto;
 }
+#sponsors{
+	padding-top: 200px;
+	text-align: center;
+}
+.axure{
+	padding-right: 60px;
+	padding-bottom: 20px;
+	float: left;
+}
+.balsamiq{
+	padding-right: 50px;
+	padding-top: 20px;
+	float: left;
+}
+.jetbrains{
+	padding-right: 40px;
+	float: left;
+	padding-left: 10px;
+}
+.indico{
+	padding-top: 30px;
+	float: right;
+}

@@ -335,7 +335,7 @@ video::-webkit-media-controls {
 	text-align: center;
 	z-index: 1;
 }
-img{
+.img-responsive{
 	max-width: 100%
 	height: auto;
 }

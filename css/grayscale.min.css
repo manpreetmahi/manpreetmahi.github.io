@@ -374,6 +374,7 @@ video::-webkit-media-controls {
 .header {
     text-align: center;
     padding: 32px;
+    padding-top: 200px;
 }
 
 .row {

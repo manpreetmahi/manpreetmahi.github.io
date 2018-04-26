@@ -429,3 +429,8 @@ video::-webkit-media-controls {
     display: none;
     overflow: hidden;
     font-size: 5px;
+}
+.partners{
+	border-style: solid;
+    border-width: 2px;
+}
